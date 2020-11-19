@@ -1,0 +1,34 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 18 03:26:08 2020] ***
+compiled with version: 7.5.0 on 18 November 2020 01:49:40
+os: Linux-4.15.0-121-generic #123-Ubuntu SMP Mon Oct 5 16:16:40 UTC 2020
+nodename: ubuntu-s-1vcpu-1gb-nyc1-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/html/pricing-service
+detected binary path: /home/michael/.local/share/virtualenvs/pricing-service-inAv0XFt/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** starting uWSGI Emperor ***
+Python version: 3.7.9 (default, Aug 18 2020, 06:22:45)  [GCC 7.5.0]
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5653fef10d80
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 1515)
+Wed Nov 18 03:26:10 2020 - [emperor] vassal uwsgi.ini has been spawned
+Wed Nov 18 03:26:10 2020 - [emperor] vassal uwsgi.ini is ready to accept requests
+Wed Nov 18 03:55:27 2020 - [emperor] vassal uwsgi.ini is now loyal
+Wed Nov 18 03:56:02 2020 - [emperor] vassal uwsgi.ini is now loyal
+Wed Nov 18 03:56:08 2020 - [emperor] vassal uwsgi.ini is now loyal
+Wed Nov 18 03:57:32 2020 - [emperor] vassal uwsgi.ini is now loyal
+Wed Nov 18 04:40:06 2020 - [emperor] vassal uwsgi.ini is now loyal
+Wed Nov 18 04:40:13 2020 - [emperor] vassal uwsgi.ini is now loyal
+Wed Nov 18 04:40:14 2020 - [emperor] vassal uwsgi.ini is now loyal
+Wed Nov 18 04:41:18 2020 - [emperor] vassal uwsgi.ini is now loyal
